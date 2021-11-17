@@ -149,6 +149,25 @@ img {
   padding: 12px 25px;
 }
 
+@media (max-width: 900px) {
+  .container {
+    width: 520px;
+    margin: 0 auto;
+  }
+
+  .text h1 {
+    font-size: 20px;
+  }
+  button {
+    display: none;
+  }
+
+  .image::after {
+    height: 200px;
+    width: 200px;
+  }
+}
+
 .container-new {
   position: relative;
   width: 65em;
